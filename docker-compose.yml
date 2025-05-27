@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   postgres:
     image: postgres:15-alpine
@@ -7,19 +5,16 @@ services:
     environment:
       POSTGRES_DB: web_rise_demo
       POSTGRES_USER: web_rise_user
-      POSTGRES_PASSWORD: 1
+      POSTGRES_PASSWORD: "1"
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./init-scripts:/docker-entrypoint-initdb.d
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U web_rise_user -d web_rise_demo"]
       interval: 10s
       timeout: 5s
       retries: 5
-    networks:
-      - webrise-network
 
   app:
     build:
@@ -32,35 +27,12 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/web_rise_demo
       SPRING_DATASOURCE_USERNAME: web_rise_user
-      SPRING_DATASOURCE_PASSWORD: 1
+      SPRING_DATASOURCE_PASSWORD: "1"
       SPRING_PROFILES_ACTIVE: docker
       JAVA_OPTS: "-Xmx512m -Xms256m"
     ports:
       - "8080:8080"
-    volumes:
-      - app_logs:/app/logs
     restart: unless-stopped
-    networks:
-      - webrise-network
-      -
-  adminer:
-    image: adminer:latest
-    container_name: webrise_adminer
-    ports:
-      - "8081:8080"
-    depends_on:
-      - postgres
-    networks:
-      - webrise-network
-    profiles:
-      - tools
-
-networks:
-  webrise-network:
-    driver: bridge
 
 volumes:
   postgres_data:
-    driver: local
-  app_logs:
-    driver: local
