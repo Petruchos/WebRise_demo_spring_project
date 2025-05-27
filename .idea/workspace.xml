@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74959751-c7ef-444b-9a66-68c033b3ec01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DockerFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/WebRiseTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/constants/SubscriptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/dto/AddSubscriptionPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/dto/CreateUserPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/dto/EditUserPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/dto/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/dto/SubscriptionStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/entity/CommonEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/entity/SubscriptionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/repository/SubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/utils/converter/SubscriptionDTOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web_rise/demo/utils/converter/UserDTOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/kaka" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_users_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Create_subscriptions_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/web_rise/demo/WebRiseTestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/WebRiseTestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/constants/SubscriptionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/AddSubscriptionPayload$AddSubscriptionPayloadBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/AddSubscriptionPayload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/CreateUserPayload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/EditUserPayload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/Subscription$SubscriptionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/Subscription.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/SubscriptionStatistics$SubscriptionStatisticsBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/SubscriptionStatistics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/dto/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/entity/CommonEntity$CommonEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/entity/CommonEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/entity/SubscriptionEntity$SubscriptionEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/entity/SubscriptionEntity$SubscriptionEntityBuilderImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/entity/SubscriptionEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/repository/SubscriptionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/utils/converter/SubscriptionDTOConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/web_rise/demo/utils/converter/UserDTOConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/kaka" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__Create_users_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V2__Create_subscriptions_table.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xcth3u91bpmerbIAzdE2qnhJSw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/petrs/Desktop/projects/Web_Rise_test",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\petrs\Desktop\projects\Web_Rise_test\src\main\resources\db\migration" />
+      <recent name="C:\Users\petrs\Desktop\projects\Web_Rise_test\src\main\resources\db" />
+      <recent name="C:\Users\petrs\Desktop\projects\Web_Rise_test\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.web_rise.demo.WebRiseTestApplication" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74959751-c7ef-444b-9a66-68c033b3ec01" name="Changes" comment="" />
+      <created>1748249306201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748249306201</updated>
+    </task>
+    <servers />
+  </component>
+</project>

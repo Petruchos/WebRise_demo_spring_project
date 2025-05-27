@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: WebRise_test
+  
+  datasource:
+    url: jdbc:postgresql://localhost:5432/web_rise_demo
+    username: web_rise_user
+    password: 1
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+      connection-timeout: 20000
+      idle-timeout: 300000
+  
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+  
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+    sql-migration-suffixes: .sql
+
+logging:
+  level:
+    org.flywaydb: INFO
+    com.zaxxer.hikari: INFO
