@@ -266,7 +266,19 @@
 					"name": "get top 3",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/user/subscriptions/top",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"user",
+								"subscriptions",
+								"top"
+							]
+						}
 					},
 					"response": []
 				}
